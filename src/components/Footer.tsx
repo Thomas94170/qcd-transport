@@ -7,27 +7,27 @@ export default function Footer(){
   <div className="mx-auto max-w-7xl overflow-hidden py-20 px-6 sm:py-24 lg:px-8">
     <nav className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
       <div className="pb-6">
-        <a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">About</a>
+        <a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">n° de téléphone: 06.12.34.56.78</a>
       </div>
 
       <div className="pb-6">
-        <a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">Blog</a>
+        <a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">Horaires : 7/7 9h-19h</a>
       </div>
 
       <div className="pb-6">
-        <a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">Jobs</a>
+        <a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">Adresse : rue de X 51000 Reims</a>
       </div>
 
       <div className="pb-6">
-        <a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">Press</a>
+        <a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">N° Siret : </a>
       </div>
 
       <div className="pb-6">
-        <a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">Accessibility</a>
+        <a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900"></a>
       </div>
 
       <div className="pb-6">
-        <a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">Partners</a>
+        <a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900"></a>
       </div>
     </nav>
     <div className="mt-10 flex justify-center space-x-10">

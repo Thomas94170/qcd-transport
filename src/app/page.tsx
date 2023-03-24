@@ -6,6 +6,9 @@ import Animation from '../animation/Animation'
 import Service from '@/components/Service'
 import Footer from '@/components/Footer'
 import { Modal } from '@/components/Modal'
+import Slide from '../slide/Slide'
+import Avis from '@/components/Avis'
+import ZoomA from '@/components/Zoom'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,9 +19,12 @@ export default function Home() {
     <Animation/>
     <About/>
     <br/>
-    <Modal/>
+    
+    <ZoomA/>
     <Service/>
     <Animation/>
+    <Avis/>
+    <Slide/>
     <Footer/>
     </>
   )

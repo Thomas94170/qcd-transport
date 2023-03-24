@@ -81,8 +81,8 @@ function ParallaxText({ children, baseVelocity = 100 }: ParallaxProps) {
 export default function Animation() {
   return (
     <section>
-      <ParallaxText baseVelocity={-5}>QCD Transport</ParallaxText>
-      <ParallaxText baseVelocity={5}>prenez le temps d être pressé </ParallaxText>
+      <ParallaxText baseVelocity={-2}>QCD Transport</ParallaxText>
+      <ParallaxText baseVelocity={3}>prenez le temps d être pressé </ParallaxText>
     </section>
   );
 }
