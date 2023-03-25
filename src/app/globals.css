@@ -82,3 +82,20 @@ background-repeat: no-repeat; }
   .service-bg{
     background-color: #F4FFFD;
   }
+
+  /* Avis */
+
+  .avis{
+    font-family: 'Gajraj One', cursive;
+    
+    letter-spacing: 1px;
+  }
+
+  .card{
+    background-color: #F4FFFD;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #21006C
+    ;
+  }
+
+ 

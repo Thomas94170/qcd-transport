@@ -11,7 +11,7 @@ export default function Service(){
 
     return(
         <>
-        <div className="w-full sm:w-full max-w-full service-bg mt-10 border border-gray shadow-lg shadow-gray-500/50">
+        <div id='service' className="w-full sm:w-full max-w-full bg-white mt-10 border border-gray shadow-lg shadow-gray-500/50">
             
             <div className="grid grid-cols-2 gap-4">
                 <div className="h-200 flex items-center justify-center titreServ">

@@ -23,7 +23,9 @@ export default function Footer(){
       </div>
 
       <div className="pb-6">
-        <a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900"></a>
+        <a href="#devis">
+      <button className="rounded-full text-sm leading-6 bg-black text-white p-1">Demander un devis</button>
+      </a>
       </div>
 
       <div className="pb-6">

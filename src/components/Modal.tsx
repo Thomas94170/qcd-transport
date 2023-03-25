@@ -21,7 +21,7 @@ export const Modal = () => {
 
   return (
     <>
-    <div className="grid justify-items-stretch">
+    <div id="devis" className="grid justify-items-stretch">
     <div className="justify-self-center ...">
 
     <button
@@ -57,7 +57,7 @@ export const Modal = () => {
                       htmlFor="first-name"
                       className="block text-sm font-medium text-gray-700"
                     >
-                      Prénom
+                      N° de téléphone
                     </label>
                     <input
                       required
@@ -74,7 +74,7 @@ export const Modal = () => {
                       htmlFor="last-name"
                       className="block text-sm font-medium text-gray-700"
                     >
-                      Nom
+                      Nom Prénom
                     </label>
                     <input
                       required
@@ -139,9 +139,9 @@ export const Modal = () => {
                       Votre message :  n'oubliez pas d'indiquer les dimensions de votre envoi (hauteur Largeur longueur), le poids même approximatif
                       ainsi que le point de départ et sa destination
                     </label>
-                    <input
+                    <textarea
                       required
-                      type="textarea"
+                      
                       name="message"
                       id="message"
                       rows={5} 
