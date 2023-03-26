@@ -91,7 +91,7 @@ export const Modal = () => {
                       htmlFor="email-address"
                       className="block text-sm font-medium text-gray-700"
                     >
-                      Addresse Mail
+                      Adresse Mail
                     </label>
                     <input
                       required

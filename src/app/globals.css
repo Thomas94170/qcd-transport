@@ -20,6 +20,13 @@
     height: 100px;
 }
 
+.call{
+  background-color: #21006C;
+}
+
+.call:hover{
+  background: linear-gradient(to bottom, #21006C, #F4FFFD);
+}
 /*composant About */
 
 .parent {
@@ -28,6 +35,13 @@
   grid-template-rows: repeat(4, 1fr);
   grid-column-gap: 50px;
   grid-row-gap: 0px;
+  }
+
+  @media (max-width: 640px) {
+    .parent {
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: 1fr;
+    }
   }
   
   .div1 { grid-area: 1 / 4 / 5 / 7;
@@ -98,4 +112,14 @@ background-repeat: no-repeat; }
     ;
   }
 
- 
+  @media (max-width: 640px) { /* ajustez la largeur de la fenêtre selon vos besoins */
+    .flex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* centre les éléments horizontalement */
+      align-items: center; /* centre les éléments verticalement */
+    }
+    .card {
+      width: 100%; /* occupe toute la largeur disponible */
+    }
+  }

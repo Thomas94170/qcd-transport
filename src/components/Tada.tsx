@@ -7,7 +7,7 @@ class TadaA extends React.Component {
     return (
       <div>
         <Tada>
-        <h1 className='text-6xl text-center avis'>Ils nous ont fait confiance</h1>
+        <h1 className='text-2xl sm:text-6xl text-center avis'>Ils nous ont fait confiance</h1>
         </Tada>
       </div>
     );

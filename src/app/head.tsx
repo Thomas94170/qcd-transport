@@ -9,9 +9,9 @@ export default function Head() {
       Déménagement, livraison de vos meubles dans toute la France 
       Basée à Reims, notre société assure l'enlèvement le jour même et la livraison de vos marchandises quand vous le souhaitez. 
       Contactez-nous dès maintenant pour bénéficier de notre expertise en matière de déménagement et de transport de marchandises.
-      Devis, Services, Enlèvement, Livraison, Palettes, Colis, Déménagement, Reims, régions, France, standard, express
+      Devis, Services, Enlèvement, Livraison, Palettes, Colis, Déménagement, Reims, régions, France, standard, express, professionnels et particuliers
 " />
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="./image/qcd-logo.png" />
     </>
   )
 }

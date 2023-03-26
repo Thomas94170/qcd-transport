@@ -70,6 +70,12 @@ export default function Example() {
                   >
                     Contact
                   </a>
+                  <a
+                    href="#devis"
+                  >
+                   <button className="rounded-full p-3 bg-black text-white text-sm mt-3 ml-20">Demander un devis</button>
+                  </a>
+                  <a href="tel:+33123456789" className="rounded-full p-3 call text-white text-sm mt-3 mb-2 mr-10">01 23 45 67 89</a>
                 </div>
               </div>
               
@@ -79,40 +85,48 @@ export default function Example() {
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 pt-2 pb-4">
               {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
+              
               <Disclosure.Button
                 as="a"
-                href="#"
-                className="block border-l-4 border-indigo-500 bg-indigo-50 py-2 pl-3 pr-4 text-base font-medium text-indigo-700"
-              >
-                Accueil
-              </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href="#"
+                href="#about"
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
               >
                 A propos
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
-                href="#"
+                href="#devis"
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
               >
                 Devis
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
-                href="#"
+                href="#service"
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
               >
                 Services
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
-                href="#"
+                href="#contact"
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
               >
                 Contact
+              </Disclosure.Button>
+              <Disclosure.Button
+                as="a"
+                href="#devis"
+                
+              >
+                 <button className="rounded-full p-3 bg-black text-white text-sm mt-3 ml-1">Demander un devis</button>
+              </Disclosure.Button>
+              <Disclosure.Button
+                as="a"
+                href="tel:+33123456789"
+                
+              >
+                 <button className="rounded-full p-3 call text-white text-sm mt-3 ml-1">01 23 45 67 89</button>
               </Disclosure.Button>
             </div>
           </Disclosure.Panel>

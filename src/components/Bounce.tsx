@@ -7,7 +7,7 @@ class BounceA extends React.Component {
     return (
       <div>
         <Bounce>
-        <p className='content-center text-center text-white text-6xl'>Nos Services</p>
+        <p className='content-center text-center text-white text-2xl sm:text-6xl'>Nos Services</p>
         </Bounce>
       </div>
     );
